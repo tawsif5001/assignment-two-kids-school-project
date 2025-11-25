@@ -1,0 +1,242 @@
+
+.quicksand-regular {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.quicksand-medium {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.quicksand-semibold {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.quicksand-bold {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+/* shared style */
+
+.primary-clr01{
+    color: rgba(254, 163, 1, 1);
+}
+
+.primary-clr02{
+   color: rgba(1, 172, 253, 1);
+}
+
+.primary-clr03{
+    color: rgba(5, 212, 223, 1);
+}
+
+.primary-clr04{
+    color: rgba(93, 88, 239, 1);
+}
+
+
+.primary-clr05{
+   color: rgba(255, 255, 255, 1);
+}
+
+.primary-clr06{
+    color: rgba(17, 17, 17, 1);
+}
+
+/* nav-style */
+
+.header-container{
+    
+
+}
+
+
+.nav-container{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+ 
+}
+
+#nav-logo{
+    width: 62px;
+    height: 62px;
+    margin-right: 5px;
+}
+
+.logo-title{
+    font-size: 1.6rem;
+}
+
+
+
+#nav-page-link li{
+    margin-right: 40px;
+    font-size: 1rem;
+    line-height: 30%;
+  
+}
+
+#nav-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+    padding-inline-start: 0px;
+}
+
+
+
+nav ul li{
+    list-style: none;
+    
+}
+
+nav li > a{
+    text-decoration: none;
+}
+
+
+.nav-btn{
+ font-size: 1rem;
+ line-height: 30%;
+ letter-spacing: 0;
+ background-color: rgba(254, 163, 1, 1);
+ padding: 20px 60px;
+ border-radius: 12px;
+ border: none;
+
+}
+
+
+/* Banner-styles */
+
+.banner-container{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+     align-items: center;
+
+
+}
+
+.banner-details{
+   
+}
+
+.banner-details h1{
+    font-size: 2.8rem;
+
+}
+
+#banner-info{
+    font-size: 1rem;
+    line-height: auto;
+    letter-spacing: 0px;
+    margin-top: 19.2px;
+    color:  rgba(17, 17, 17, 1);
+}
+
+
+#desk-br{
+    display: block;
+}
+
+#mobile-br{
+    display: none;
+}
+
+
+
+
+.banner-btn{
+    background-color:  rgba(17, 17, 17, 1);
+    color: rgba(255, 255, 255, 1);
+    font-size: 1rem;
+    line-height: 30px;
+    letter-spacing: 0%;
+    padding: 12px 60px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 19.2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 576px) {
+
+    .nav-container{
+        display: none;
+    }
+
+
+    .banner-details h1{
+    font-size: 1.6rem;
+    }
+
+    #banner-info{
+        font-size: 0.74rem;
+        line-height: 10px;
+    }
+
+    #desk-br{
+        display: none;
+    }
+
+    #mobile-br{
+        display: block;
+    }
+ 
+
+
+    .banner-img img{
+        width: 330px ;
+        height: 413px;
+    }
+
+ 
+    .banner-container{
+        flex-direction: column-reverse;
+        text-align: center;
+
+    }
+
+    .banner-btn{
+        font-size: 0.8rem;
+        padding: 6px 24px;
+    }
+
+    
+}
