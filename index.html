@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <title>Document</title>
 </head>
 <body>
@@ -40,7 +43,7 @@
 
                 </div>
                 <div class="banner-img">
-                    <img src="/assets/hero-kids.png" alt="" srcset="">
+                    <img src="assets/hero-kids.png" alt="" srcset="">
                 </div>
             </div>            
         </div>
@@ -50,11 +53,40 @@
 
     <main>
 
-        <p>
-  John Doe<span class="desktop-break"></span><br class="mobile-break">
-  123 Main Street<span class="desktop-break"></span><br class="mobile-break">
-  Anytown, USA 12345
-</p>
+        <!-- curriculum section start -->
+         <section id="curriculum-section">
+            <div class="curriculum-container">
+                <h1 class="curriculum-heading quicksand-bold">Standard Curriculum</h1>
+                <div class="card-container">
+                    <card class="card-kinder">
+                        <img id="kinder-img" src="assets/kinder.png" alt="" class="card-img">
+                        <h3 class="card-heading quicksand-bold">Kinder (3-6) Years</h3>
+                        <p class="card-description raleway-medium">Cum sociis natoque penatibus et magnis <br> dis parturient montes, nascetur ridiculus <br> mu sdis parturient</p>
+                        <h5 id="kinder-readmore" class="card-readmore quicksand-bold">Read More </h3>
+                    </card>
+
+                    <card class="card-elementary">
+                        <img id="elementary-img" src="assets/elementary.png" alt="" class="card-img">
+                        <h3 class="card-heading quicksand-bold">Elementary School</h3>
+                        <p class="card-description raleway-medium">Cum sociis natoque penatibus et magnis <br> dis parturient montes, nascetur ridiculus <br> mu sdis parturient</p>
+                         <h5 id="elementary-readmore" class="card-readmore quicksand-bold">Read More </h3>
+                    </card>
+
+                    <card class="card-middle">
+                        <img id="middle-img" src="assets/middle.png" alt="" class="card-img">
+                        <h3 class="card-heading quicksand-bold">Middle (10-16) Years</h3>
+                        <p class="card-description raleway-medium">Cum sociis natoque penatibus et magnis <br> dis parturient montes, nascetur ridiculus <br> mu sdis parturient</p>
+                         <h5 id="middle-readmore" class="card-readmore quicksand-bold">Read More </h3>
+                    </card>
+                </div>
+                <div class="curriculum-btn-container">
+                    <button class="navigation-btn" id="btn-left"><i class="fa-solid fa-angle-left"></i></button>
+                    <button class="navigation-btn" id="btn-right"><i class="fa-solid fa-angle-right"></i></button>
+                </div>
+            </div>
+         </section>
+
+
 
     </main>
 
