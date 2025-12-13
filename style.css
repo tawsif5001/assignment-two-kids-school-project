@@ -1,6 +1,4 @@
-
-
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 
 
 .quicksand-regular {
@@ -297,7 +295,7 @@ margin-right: auto;
 
 .card-readmore{
     margin-top: 28px;
-    font-size: 0.75rem;
+    font-size: 0.9rem;
 
 }
 
@@ -316,6 +314,7 @@ margin-right: auto;
 
 .curriculum-btn-container{
     margin-top: 60px;
+    margin-bottom: 60px;
     
 }
 
@@ -326,6 +325,8 @@ margin-right: auto;
     height: 50px;
     border-radius: 50%;
     color: white;
+    align-items: center;
+
    
     
 }
@@ -337,18 +338,182 @@ margin-right: auto;
 }
 
 
+/* stories styles */
+
+#stories-section{
+    margin-top: 60px;
+    background: url(assets/bg.png),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3) 0% ,rgba(255, 255, 255, 0.3) 100%);
+   
+
+}
+
+.stories-card-container{
+    width: 57%;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-areas: 
+    "stories-card-1 card-2 card-3"
+    "stories-card-1 card-4 card-5"
+    "view-btn view-btn view-btn";
+
+    column-gap: 15px;
+    row-gap: 15px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    padding-bottom: 50px;
+  
+}
+
+#stories-heading{
+    color: black;
+    font-size: 2.3rem;
+    line-height: 45px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.stories-card-1{
+    grid-area: stories-card-1;
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    width: 432px;
+    height: 500px;
+}
+
+.stories-card-1>img{
+  width: 100%;
+  height: 50%;
+  border-radius: 16px 16px 0px 0px;
+ }
+
+ .stories-card-1>h2{
+    font-size: 1.3rem;
+    line-height: 30px;
+    letter-spacing: 30%;
+    color: rgba(0, 0, 0, 1);
+    margin-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+ }
+
+ .stories-card-1>p{
+    color: rgba(102, 102, 102, 1);
+    font-size: 0.88rem;
+    line-height: 22px;
+    letter-spacing: 0%;
+    margin-top: 35px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+ }
 
 
 
+.story-btn-1{
+margin-left: 27px;
+margin-top: -22.5px;
+}
+
+#btn-1{
+  color: rgb(255, 255, 255);
+  font-size: 0.8rem;
+  line-height: 18px; 
+  width: 142px;
+  height: 40px;
+  background: rgb(60, 216, 232);
+  border-radius: 35px;
+  border: none;
+ 
+}
 
 
+.stories-card-mini{
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+  /* position: relative; */
+  width: 232px;
+  height: 240px;
+}
 
 
+.stories-card-mini>img{ 
+  width: 100%; 
+  height: 55%;
+  border-radius: 16px 16px 0px 0px;
+}
+
+.stories-card-mini>h3{
+   font-size: 0.75rem;
+   padding-left: 29px;
+   padding-right: 47px;
+   line-height: 18px;
+   color: black;
+   font-weight: bolder;
+   
+}
 
 
+.btn-mini{
+  color: rgb(255, 255, 255);
+  border: none;
+  font-size: 12px;
+  line-height: 18px;
+  background: rgb(149, 178, 38);
+  /* width: 139px; */
+  height: 30px;
+  padding: 7.2px 14.4px;
+  border-radius: 35px;
+  margin-left: 27px;
+}
+
+.story-btn-mini{
+    margin-top: -20px;
+}
 
 
+#btn-color-exeptional{
+     background-color:rgb(93, 88, 240);
+}
 
+
+.card-2{
+  grid-area:card-2;
+ }
+ .card-3{
+  grid-area: card-3;
+ }
+ .card-4{
+  grid-area: card-4;
+ }
+ .card-5{
+  grid-area: card-5;
+ }
+
+ .view-btn{
+    grid-area: view-btn;
+ }
+
+ 
+.view-btn{
+  text-align: center;
+ 
+ 
+}
+
+.view{
+  background-color: black;
+   border: none;
+  cursor: pointer;
+  color: white;
+  padding: 10px 50px;
+  border-radius: 10px;
+  margin-top: 50px;
+
+  
+}
 
 
 
@@ -367,6 +532,7 @@ margin-right: auto;
     #banner-info{
         font-size: 0.74rem;
         line-height: 10px;
+        
     }
 
     #desk-br{
@@ -388,6 +554,7 @@ margin-right: auto;
     .banner-container{
         flex-direction: column-reverse;
         text-align: center;
+        
 
     }
 
@@ -401,12 +568,17 @@ margin-right: auto;
         flex-direction: column;
         margin-top: 20px;
         gap: 15px;
+        align-items: center;
 
     }
 
     .curriculum-heading{
     font-size: 1.8rem;
 
+    }
+
+    #curriculum-section{
+        background-image: none;
     }
 
     .curriculum-btn-container{
