@@ -360,7 +360,6 @@ margin-right: auto;
     column-gap: 15px;
     row-gap: 15px;
     margin-top: 80px;
-    margin-bottom: 80px;
     padding-bottom: 50px;
   
 }
@@ -513,6 +512,71 @@ margin-top: -22.5px;
   margin-top: 50px;
 
   
+}
+
+
+
+
+/* footer styles start*/
+
+.footer-container{
+    background-color:rgb(1, 172, 253);
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    
+
+}
+
+.footer-col-1>div{
+    display: flex;
+    align-items: center;
+}
+
+.footer-col-1 img{
+    width: 70px;
+    height: 75px;
+    margin-right: 10px;
+}
+
+.footer-col-1 h3{
+    font-size: 1.8rem ;
+    color: white;
+    
+}
+
+.footer-col-1 p{
+    color: white;
+    font-size: 1rem ;
+    margin-top: 5px;
+
+}
+
+#about{
+    color: rgba(255, 255, 255, 1);
+    font-size: 1.2rem;
+    margin-bottom: 25px;
+}
+
+.about-other{
+   color: rgba(255, 255, 255, 1);
+   font-size: 1rem;
+   margin-bottom: 20px;
+}
+
+.footer-col-3 h3{
+   color: rgba(255, 255, 255, 1);
+   font-size: 1.2rem;
+   margin-bottom: 25px;
+
+}
+
+.footer-col-3 img{
+    width: 32px;
+    height: 32px;
+    gap: 8px;
+    margin-right: 10px;
 }
 
 
